@@ -1,0 +1,25 @@
+{
+  "name": "ts-starter",
+  "version": "0.1.0",
+  "description": "My next  project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --port 7856 --devtool source-map --progress --colors --inline --hot",
+    "deploy": "NODE_ENV=production webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Omid Alemi",
+  "license": "MIT",
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.2.2",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "source-map-loader": "^0.1.5",
+    "typescript": "^2.0.10"
+  }
+}
